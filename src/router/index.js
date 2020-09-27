@@ -39,10 +39,4 @@ export default new Router({
   ],
 });
 
-const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  routes
-})
 
-export default router
